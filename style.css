@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    color: white;
+    background-image: url("./Imagenes/personas_trabajando.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: auto; 
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+}
+
+header {
+    top: 60px;
+    right: 60px;
+    padding: 50px;
+}
+
+.frase-principal {
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px;
+    text-shadow: 2px 2px 1px black ;
+}
+
+.texto-principal {
+    display: flex;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 1px black ;
+    justify-content: center;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-weight: 550;
+}
+
+.section {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.objetivos {
+    list-style: none;
+    padding-top: 175px;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+    font-weight: 500;
+}
+
+.izquierda {
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.derecha {
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+.productos {
+    padding-top: 100px;   
+}
+
+.imagen-producto {
+    width: 400px;
+    height: 300px;
+}
+
+.celdas {
+    padding: 50px;
+}
+
+.comentarios {
+    padding-top: 200px;
+    margin: 30px;
+}
+
+.comentario {
+    padding-top: 150px;
+    justify-content: space-around;
+    align-items: normal;
+    margin: 10px;
+}
+
+.autor {
+    margin-top: 20px;
+    background-color: grey;
+}
+
+.comentario-espesifico {
+    background-color: grey;
+}
+
+
+.formulario {
+    padding-top: 70px;
+    padding-left: 850px;
+    font-weight: 500;
+}
+
+.texto-formulario {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+nav ul {
+    position: absolute;
+    font-size: 20px;
+    top: 80px;
+    right: 50px;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 10px;
+}
+
+.logo {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    width: 100px;
+}
+
+/* .imagen-principal {
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+    width: 700px;
+}
+
+
+
+.texto-descriptivo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+table {
+    margin: 0 auto;
+} */
+
+
+
+
+
