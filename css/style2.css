@@ -34,6 +34,28 @@ body {
     text-shadow: 2px 2px 1px black ;
 }
 
+.nosotros {
+    min-height: 85vb;
+}
+
+.texto-nosotros {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 5%;
+}
+
+.conteiner_nosotros {
+    text-shadow: 2px 2px 1px black ;
+    display: flex;
+    text-align: center;
+    margin: 10%;
+    gap: 10%;
+}
+
+.columna_nosotros {
+    display: flex;
+    flex-direction: column;
+}
 
 footer {
     background-color: black;
@@ -50,6 +72,21 @@ footer {
     }
     .frase-principal {
         font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:750px) { 
+    .conteiner_nosotros {
+        flex-wrap: wrap;
+        margin: 5%;
+        margin-top: 20%;
+        gap: 5%;
+    }
+    .texto-nosotros {
+        font-size: 2rem;
+    }
+    .nosotros {
+        min-height: 88vb;
     }
 }
 
