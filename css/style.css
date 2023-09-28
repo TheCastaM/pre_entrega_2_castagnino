@@ -9,6 +9,8 @@ body {
     background-image: url("../assets/Images/personas_trabajando.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
     backdrop-filter: blur(5px);
     position: fixed;
     width: 100%;

@@ -1,0 +1,63 @@
+body {
+    color: white;
+    background-image: url("../assets/Images/personas_trabajando.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100%;
+}
+
+.conteiner_principal {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 90vb;
+    text-wrap: wrap;
+}
+
+.texto-principal {
+    font-size: 2rem;
+    text-shadow: 2px 2px 1px black ;
+    padding: 10%;
+}
+
+.frase-principal {
+    font-size: 3rem;
+    text-shadow: 2px 2px 1px black ;
+}
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+ 
+@media screen and (max-width:1024px) {
+    .texto-principal {
+        font-size: 1.5rem;
+    }
+    .frase-principal {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .texto-principal {
+        font-size: 1rem;
+    }
+    .frase-principal {
+        font-size: 2rem;
+    }
+}
